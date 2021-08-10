@@ -1,24 +1,23 @@
-'''
-Model Evaluation - 
-Performance Metrics 1: Classification
- - Performance metrics determines:
-     1. how to weight importance of differnt characteristics
-     2. which algorithm ultimately to choose
-     
- - For Classification matrics, Pima Indian onset of diabetes dataset is used. (Logistic Regression) => Classification
- 
- - For Regression matrics, Boston House Price dataset is used. (Linear Regression) => Regression
- 
-  - 10-fold cross validation test is used for metric demonstration
+'''Model Evaluation - 
+    Performance Metrics 1: Classification
+     - Performance metrics determines:
+        1. how to weight importance of differnt characteristics
+        2. which algorithm ultimately to choose
+
+    - For Classification matrics, Pima Indian onset of diabetes dataset is used. (Logistic Regression) => Classification
+
+    - For Regression matrics, Boston House Price dataset is used. (Linear Regression) => Regression
+
+     - 10-fold cross validation test is used for metric demonstration
   
 '''
 
 ''' Classification Metrics
-    - Classification Accuracy :  scoring = 'accuracy'
-    - Logarithmic Loss :  scoring = 'neg_log_loss'
-    - Area Uner ROC Curve :  scoring = 'roc_auc'
-    - Confusion Matrix :  confusion_matrix() function
-    - Classification Report :  classification_report() function
+      - Classification Accuracy :  scoring = 'accuracy'
+      - Logarithmic Loss :  scoring = 'neg_log_loss'
+      - Area Uner ROC Curve :  scoring = 'roc_auc'
+      - Confusion Matrix :  confusion_matrix() function
+      - Classification Report :  classification_report() function
 '''
     
     

@@ -1,18 +1,18 @@
 # ML-ProblemSolving-FrameWork (Note: On Progress)
+---
 
-
-  These are my self-learning ML practice projects using Python(sklearn) following the instruction of "Machine Learning Mastery With Python BY Jason Brownlee".
-Gnerally there are two parts in this repository. The first one is mainly about ML basics such as loading file and describing data. In this README file, basics exercises are on Pima Indians onset of diabetes dataset.  The second part is about three comprehensive ML projects on some well-known dataset using the basic knowledge in the first part. The details can be found using links below.
+  I will upload my self-learning ML practice projects using Python(sklearn) following instruction of `Analytics Vidhya Ascend Pro Program` and `Machine Learning Mastery With Python BY Jason Brownlee`
 
 
 * [Classification Problem]
 * [Regression Problem]
 * [Binary Classification Problem]Rocks Dataset
 
+---
 
 ## Getting Started with Basics
 
-Overall, when given a new ML project, the workflow could be as following:
+When given a new ML project, workflow could be as following:
 1. **Define problem** <br />
   Investigate and characterize the problem and clarify the project goal.
 
@@ -106,8 +106,6 @@ Overall, when given a new ML project, the workflow could be as following:
         - Naive Bayes (Non-linear)
         - Classification and Regression (Non-linear)
         - Support Vector Machine (Non-linear)
-        
-
 
 5. **Improve results**
    - Ensemble <br />
@@ -129,10 +127,9 @@ Overall, when given a new ML project, the workflow could be as following:
         Methodically build and evaluate a model for each combination of algorithm parameters specified in a grid
         
      2) Random Search Param Tuning <br />
-        Sample algorithm parameters from a random distribution (i.e. uniform) for a fixed number of iterations. A model is constructed and evaluated for each combination of parameters chosen.
-        
-        
-        
+        Sample algorithm parameters from a random distribution (i.e. uniform) for a fixed number of iterations. A model is constructed and evaluated for each combination of parameters chosen.       
+
+
 6. **Present results** <br />
    The final part includes:
    - Predictions on validation dataset

@@ -1,4 +1,4 @@
-# ML-ProblemSolving-FrameWork (Note: On Progress)
+# ML-ProblemSolving-FrameWork (Note: in Progress)
 ---
 
   I will upload my self-learning ML practice projects using Python(sklearn) following instruction of `Analytics Vidhya Ascend Pro Program` and `Machine Learning Mastery With Python BY Jason Brownlee`

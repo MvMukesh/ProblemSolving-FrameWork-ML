@@ -14,19 +14,20 @@
 
 When given a new ML project, workflow could be as following:
 
-1. `**Define problem**` <br />
+1. **`Define Problem`** <br />
   Investigate and characterize the problem and clarify the project goal.
 
-2. `**Summarize data**` <br />
+2. **`Summarize Data`** <br />
   Use descriptive statistics and visualization techniques to get a grasp of data. 
-   - Descriptive Statistics <br />
+   - `Descriptive Statistics` <br />
      data dimension, type, attribute features (count, mean, std, min/max, percentiles), class categories, correlations between attributes, skew of univariate distributions
      
-   - Visualization <br />
+   - `Visualization` <br />
      univariate plots(histograms, density plot, boxplot), multivariate plots(correlation matrix plot, scatter plot matrix)
 
-3. `**Data preprocessing [Incompleted]**`
-   - Transformation <br />
+3. **`Data Preprocessing` [Incompleted]**
+   
+   3.1. `Transformation` <br />
        The reason for preprocessing data is that different algorithms make different assumptions about data requiring different transformation. Here are some common processing techniques:
      - `Rescaling` <br />
        To limit varying attributes ranges all between 0 and 1. Useful for weight-inputs regression/neural networks and kNN.
@@ -40,7 +41,7 @@ When given a new ML project, workflow could be as following:
      - `Binarization` <br />
        To transform data using a binary threshold.(1 for above threshold and 0 for below threshold)
      
-   - `Feature Selection` <br />
+   3.2. `Feature Selection` <br />
      Irrelevant or partially relevant features can negatively impact model performance, such as decreasing the accuracy of many models. Feature Selection is to select features that contribute most to the prediction variable or output in which you are interested. It can help reduce overfiting, improve accuracy, reduce training time. Here are some common processing techniques:
      - `Statistical Test Selection with *chi-2*` <br />
        To select those features that have the strongest relationship with output variable 
@@ -54,7 +55,7 @@ When given a new ML project, workflow could be as following:
      - `Feature importance` <br />
      To use bagged decision trees such as Random Forest and Extra Trees to estimate the importance of features.
 
-4. `**Algorithm Evaluation**`
+4. **`Algorithm Evaluation`**
    - `Separate train/test dataset (Resampling)` <br />
      In most cases, *k-fold* Cross Validation technique (e.g. k = 3, 5 or 10) will be used to estimate algorithm performance with less variance. At first, the dataset will be splited into *k* parts. Then the algorithm is trained on *k-1* folds with one held back and tested on the held back fold. Repeatedly, each fold of the dataset will be given a chance to be the held back test set. After all these, you can summarize using the mean and std of such *k* different performance scores.
      
@@ -108,7 +109,7 @@ When given a new ML project, workflow could be as following:
         - Classification and Regression (Non-linear)
         - Support Vector Machine (Non-linear)
 
-5. `**Improve results**`
+5. **`Improve Results`**
    - `Ensemble` <br />
      Ensemble learning helps improve machine learning results by combining several models. This approach allows the production of better predictive performance compared to a single model.
      
@@ -131,7 +132,7 @@ When given a new ML project, workflow could be as following:
         Sample algorithm parameters from a random distribution (i.e. uniform) for a fixed number of iterations. A model is constructed and evaluated for each combination of parameters chosen.       
 
 
-6. `**Show results**` <br />
+6. **`Show Results`** <br />
    The final part includes:
    - Predictions on validation dataset
    - Create standalone model on entire training dataset

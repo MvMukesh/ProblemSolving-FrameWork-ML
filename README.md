@@ -132,6 +132,60 @@ When given a new ML project, workflow could be as following:
         Sample algorithm parameters from a random distribution (i.e. uniform) for a fixed number of iterations. A model is constructed and evaluated for each combination of parameters chosen.       
 
 
+Using hyper-parameter optimization, we can also find correct penalty to use
+
+`Model |  Optimize  |  Range of values`
+ 
+`Linear Regression`
+- fit_intercept   - True/False
+- normalize   - True/False
+
+
+`k-neighbors`
+- n_neighbors   - 2, 4, 8, 16...
+-p              - 2,3
+
+
+`SVM`
+-C              - 0.001,0.01..10..100..1000
+- gamma         - ‘auto’, RS*
+- class_weight  - ‘balanced’ , None
+
+
+`Logistic Regression`
+- Penalty - l1 or l2
+- C       - 0.001, 0.01.....10...100   
+ 
+ `Ridge`
+- alpha           - 0.01, 0.1, 1.0, 10, 100
+- fit_intercept   - True/False
+- normalize       - True/False
+
+
+`Lasso`
+- Alpha       - 0.1, 1.0, 10
+- Normalize   - True/False
+ 
+ 
+`Random Forest`
+- n_estimators        - 120, 300, 500, 800, 1200
+- max_depth           - 5, 8, 15, 25, 30, None
+- min_samples_split   - 1,2,5,10,15,100
+- min_samples_leaf    - 1,2,5,10
+- max features        - log2, sqrt, None
+    
+
+`XGBoost`
+- eta               - 0.01,0.015, 0.025, 0.05, 0.1
+- gamma             - 0.05-0.1,0.3,0.5,0.7,0.9,1.0
+- max_depth         - 3,5,7,9,12,15,17,25
+- min_child_weight  - 1,3,5,7
+- subsample         - 0.6, 0.7, 0.8, 0.9, 1.0
+- colsample_bytree  - 0.6, 0.7, 0.8, 0.9, 1.0
+- lambda            - 0.01-0.1, 1.0 , RS*
+- alpha             - 0, 0.1, 0.5, 1.0 RS*
+
+
 6. **`Show Results`** <br />
    The final part includes:
    - Predictions on validation dataset

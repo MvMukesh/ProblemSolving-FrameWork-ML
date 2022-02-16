@@ -1,7 +1,5 @@
 # ML-ProblemSolving-FrameWork (Note: in Progress)
----
-
-  I will upload my self-learning ML practice projects using Python(sklearn) following instruction of `Analytics Vidhya Ascend Pro Program` and `Machine Learning Mastery With Python BY Jason Brownlee`
+<hr>
 
 
 * [Classification Problem]
@@ -187,7 +185,7 @@ Using hyper-parameter optimization, we can also find correct penalty to use
 
 
 6. **`Show Results`** <br />
-   The final part includes:
+   Final part includes:
    - Predictions on validation dataset
    - Create standalone model on entire training dataset
    - Save model for later use

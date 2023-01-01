@@ -24,9 +24,10 @@ When given a new ML project, workflow could be as following:
 
 3. **`Data Preprocessing` [Incompleted]**
    
-   3.1. *`Transformation`* <br />
+   3.1. **`Transformation`** <br />
        The reason for preprocessing data is that different algorithms make different assumptions about data requiring different transformation. Here are some common processing techniques:
-     - `Rescaling` <br />
+     
+     - *`Rescaling`* <br />
        To limit varying attributes ranges all between 0 and 1. Useful for weight-inputs regression/neural networks and kNN.
           
      - *`Standardization`* <br />
@@ -38,18 +39,18 @@ When given a new ML project, workflow could be as following:
      - *`Binarization`* <br />
        To transform data using a binary threshold.(1 for above threshold and 0 for below threshold)
      
-   3.2. `Feature Selection` <br />
+   3.2. **`Feature Selection`** <br />
      Irrelevant or partially relevant features can negatively impact model performance, such as decreasing the accuracy of many models. Feature Selection is to select features that contribute most to the prediction variable or output in which you are interested. It can help reduce overfiting, improve accuracy, reduce training time. Here are some common processing techniques:
-     - `Statistical Test Selection with *chi-2*` <br />
+     - *`Statistical Test Selection with *chi-2*`* <br />
        To select those features that have the strongest relationship with output variable 
        
-     - `Recursive Feature Elimination (RFE)` <br />  
+     - *`Recursive Feature Elimination (RFE)`* <br />  
        To recursively removing attributes and building a model on those attributes that remain.
        
-     - `Principal Component Analysis (PCA)` <br />
+     - *`Principal Component Analysis (PCA)`* <br />
        A kind of data reduction technique. It uses linear algebra to transform the dataset into a compressed form and choose the number of dimensions or principal components in the transformed result.
      
-     - `Feature importance` <br />
+     - *`Feature importance`* <br />
      To use bagged decision trees such as Random Forest and Extra Trees to estimate the importance of features.
 
 4. **`Algorithm Evaluation`**
@@ -58,7 +59,7 @@ When given a new ML project, workflow could be as following:
      
    - `Performance Metrics` <br />
      Choice of metrics influence how the performance of ML algorithms is measure and compared, as it represents how you weight the importance of different characteristics in the output results and ultimate choice of which algorithm to choose.
-     - `For Classification Problem`
+     - **`For Classification Problem`**
        1) `Classification Accuracy`  <br />
           Classification Accuracy is the ratio of the number of correct predictions and the numberof all predictions. Only suitable for equal number of obsevations in each class, and all predictions and prediction errors are *equally important*.
        
@@ -75,7 +76,7 @@ When given a new ML project, workflow could be as following:
        5) `Classification Report` <br />
           A scikit-learn lib provided classification report including precision, recall and F1-score.
           
-     - `For Regression Problem`
+     - **`For Regression Problem`**
        1) `Mean Absolute Error (MAE)` `L1-norm` <br />
           MAE is the sum of the absolute differences between predictions and actual values.
        

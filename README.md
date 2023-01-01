@@ -2,13 +2,13 @@
 <hr>
 
 
-* [Classification Problem]
-* [Regression Problem]
-* [Binary Classification Problem]Rocks Dataset
+* Classification Problem
+* Regression Problem
+* Binary Classification Problem
 
 ---
 
-## Getting Started with Basics
+## Getting Started
 
 When given a new ML project, workflow could be as following:
 
@@ -145,7 +145,6 @@ Using hyper-parameter optimization, we can also find correct penalty to use
                
              
 6. **`Show Results`** <br />
-   Final part includes:
    - Predictions on validation dataset
    - Create standalone model on entire training dataset
    - Save model for later use

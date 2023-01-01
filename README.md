@@ -137,7 +137,7 @@ Using hyper-parameter optimization, we can also find correct penalty to use
 |`Linear Regression`  |- fit_intercept <br> - normalize |- True/False <br> - True/False|
 |`Logistic Regression`|- Penalty <br> - C               |- l1 or l2 <br> - 0.001, 0.01.....10...100|
 |`k-NN`               |- n_neighbors <br> -p            |- 2, 4, 8, 16... <br> - 2,3   |
-|`SVM`                |-C <br> - gamma <br> - class_weight|- 0.001,0.01..10..100..1000 <br> - auto, RS* <br> - balanced , None|
+|`SVM`                |-C <br> - gamma <br> - class_weight|- 0.001,0.01..10..100..1000 <br> - scale, auto or float, RS* <br> - balanced , None|
 | `Ridge`             |- alpha <br> - fit_intercept <br> - normalize |- 0.01, 0.1, 1.0, 10, 100 <br> - True/False <br> - True/False|
 |`Lasso`              |- Alpha <br> - Normalize                      |- 0.1, 1.0, 10 <br> - True/False|
 |`Random Forest`      |- n_estimators <br> - max_depth <br> - min_samples_split <br> - min_samples_leaf <br> - max features|- 120, 300, 500, 800, 1200 <br> - 5, 8, 15, 25, 30, None <br> - 1,2,5,10,15,100  <br> - 1,2,5,10 <br>- log2, sqrt, None|

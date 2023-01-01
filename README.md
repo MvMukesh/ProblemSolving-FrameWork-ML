@@ -1,6 +1,33 @@
 # ML-ProblemSolving-FrameWork (Note: in Progress)
 <hr>
 
+<center><h4><font color='blue'>Framework to convert Business Problem into Data Problem</font></h4></center>
+
+
+Framework which I used:
+1. `Understand Business problem` using `TOSCAR` framework
+    * `T` : Trouble
+    * `O` : Owner
+    * `S` : Success Criteria
+    * `C` : Constraints
+    * `A` : Actors
+    * `R` : Refrences
+
+|T - Trouble |O - Owner |S - Success Criteria |C - Constraints |A - Actors |R - Refrences|
+|------------|----------|---------------------|----------------|-----------|-------------|
+|Why? |Who will own implementation? |How we will measure sucess? |How frequently a customer can be contacted in a day/week/month? |CEO (in our case) |Have we tried this in past? |
+|Why now? |CEO (in our case) |Average spending of existing customer? |How much we can spend? |Opeartion team maybe next |What were results? |
+|Why existing customers? |Sales Director maybe next |Percentage of customer buying over fixed time period? |Do we have any CRM? | Customer management|How current cross-sell or up-sell are being handled? |
+|Any competition benchmark?|Customer management director maybe next |What to achive in which time frame? |How much past data do we have? |Sales Team | |
+|Do we have any Cross-sell going on? |What does CEO feels about this problem? |Can we achive same sucess by other ways? |Do we capture behavioral data? |Director | |
+|Where does it fit in your(CEO priority)?  |Do other in organization feals even this is a problem? ||Any regulation to follow or keep in head?  | | |
+
+
+2. `Frame Problem Statement`
+3. `Break points 2 into smaller problem`
+4. `Convert Smaller problems to data problems`
+
+---
 
 * Classification Problem
 * Regression Problem

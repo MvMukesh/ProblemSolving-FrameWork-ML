@@ -167,9 +167,11 @@ Using hyper-parameter optimization, we can also find correct penalty to use
 |`SVM`                |-C <br> - gamma <br> - class_weight|- 0.001,0.01..10..100..1000 <br> - scale, auto or float, RS* <br> - balanced , None|
 | `Ridge`             |- alpha <br> - fit_intercept <br> - normalize |- 0.01, 0.1, 1.0, 10, 100 <br> - True/False <br> - True/False|
 |`Lasso`              |- alpha <br> - normalize                      |- 0.1, 1.0, 10 <br> - True/False|
-|`Decision Tree`      |- criterion <br> - splitter <br> - max_depth  |- gini, entropy  <br> -best, random <br> - 5,8,10|
+|`Decision Tree`      |- criterion <br> - splitter <br> - max_depth <br> - min_sample_split <br> - min_sample_leaf |- gini, entropy  <br> -best, random <br> - 5,8,10|
 |`Random Forest`      |- n_estimators <br> - max_depth <br> - min_samples_split <br> - min_samples_leaf <br> - max features|- 120, 300, 500, 800, 1200 <br> - 5, 8, 15, 25, 30, None <br> - 1,2,5,10,15,100  <br> - 1,2,5,10 <br>- log2, sqrt, None|
 |`XGBoost`            |- eta <br> - gamma <br> - max_depth <br> - min_child_weight <br> - subsample <br> - colsample_bytree <br> - lambda <br> - alpha| - 0.01,0.015, 0.025, 0.05, 0.1 <br> - 0.05-0.1,0.3,0.5,0.7,0.9,1.0 <br> - 3,5,7,9,12,15,17,25 <br> - 1,3,5,7 <br> - 0.6, 0.7, 0.8, 0.9, 1.0 <br> - 0.6, 0.7, 0.8, 0.9, 1.0 <br> - 0.01-0.1, 1.0 , RS* <br> - 0, 0.1, 0.5, 1.0 RS*|
+|`AdaBoost`          |- n_estimators <br> - algorithm <br> - DT_criterion <br> - DT_splitter <br> - DT_mini_samples_split | - 50,250,500 <br> - samme, samme.r <br> - gini,entropy <br> - random, best <br> - 5,10,20
+|`Stacking Classifier`|- xgboost <br> - random forest <br> - voting classifier <br> -logistic regression <br> - passthrough=True| |
                
              
 6. **`Show Results`** <br />

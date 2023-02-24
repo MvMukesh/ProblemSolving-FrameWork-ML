@@ -1,4 +1,4 @@
-# ML-ProblemSolving-FrameWork (Note: in Progress)
+# ProblemSolving-FrameWork (Note: in Progress)
 <hr>
 
 <center><h4><font color='blue'>Framework to convert Business Problem into Data Problem</font></h4></center>

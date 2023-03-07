@@ -180,4 +180,4 @@ Using hyper-parameter optimization, we can also find correct penalty to use
    - Save model for later use
 ---
 
-### [Refer this Private Link for now](https://www.kaggle.com/code/mukeshmanral/machine-learning-life-cycle-basic/notebook)
+### [This is Private Link for now](https://www.kaggle.com/code/mukeshmanral/machine-learning-life-cycle-basic/notebook)

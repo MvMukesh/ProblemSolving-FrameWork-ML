@@ -176,8 +176,10 @@ Using hyper-parameter optimization, we can also find correct penalty to use
              
 6. **`Show Results`** <br />
    - Predictions on validation dataset
+     
    - Create standalone model on entire training dataset
    - Save model for later use
 ---
 
 ### [This is Private Link for now](https://www.kaggle.com/code/mukeshmanral/machine-learning-life-cycle-basic/notebook)
+* Write an email to --> mukeshmanral777@gmail.com

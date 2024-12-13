@@ -1,4 +1,7 @@
 # ProblemSolving-FrameWork (Note: in Progress)
+
+[![GitHub Issues](https://img.shields.io/github/issues/MvMukesh/ProblemSolving-FrameWork-ML.svg) ![GitHub followers](https://img.shields.io/github/followers/MvMukesh.svg?style=social\&label=Follow\&maxAge=2592000)](https://github.com/MvMukesh?tab=followers) [![GitHub forks](https://img.shields.io/github/forks/MvMukesh/ProblemSolving-FrameWork-ML.svg?style=social\&label=Fork\&maxAge=2592000)](https://github.com/MvMukesh/ProblemSolving-FrameWork-ML/network/) [![GitHub stars](https://img.shields.io/github/stars/MvMukesh/ProblemSolving-FrameWork-ML.svg?style=social\&label=Star\&maxAge=2592000)](https://github.com/MvMukesh/ProblemSolving-FrameWork-ML/stargazers/)
+
 <hr>
 
 <center><h4><font color='blue'>Framework to convert Business Problem into Data Problem</font></h4></center>
